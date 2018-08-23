@@ -71,9 +71,42 @@ span input[type="text"] {
 	margin-top: 5px;
 }
 
-.col-50 input[type="tel"] {
-	width: 50%;
+
+.row input[type="tel"] {
+	width: 90%;
+	border-top: 0px;
+	border-right: none;
+	border-left: 0px;
+	margin: 10px;
+	border-bottom-color:  #000066;
+	height: 30px;
 }
+.row input[type="E-mail"] {
+	width: 90%;
+	border-top: 0px;
+	border-right: none;
+	border-left: 0px;
+	margin: 10px;
+	border-bottom-color:  #000066;
+	height: 30px;
+}
+
+.s_btn {
+	text-align: center;
+}
+button[type="submit"]{
+
+	background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 40px;
+	width: 100px;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+	padding: 5px;
+}
+
  
 
 
